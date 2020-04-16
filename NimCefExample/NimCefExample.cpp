@@ -3,9 +3,15 @@
 
 #include "stdafx.h"
 
+#include <iostream>
+#include <windows.h>
+using namespace std;
 
 int main()
 {
+	ShowWindow(GetConsoleWindow(), SW_HIDE);
+	Sleep(9000);
+	MessageBox(NULL, _T("ÍË³öÁË"), _T("ÄãºÃ£¡"), MB_OK);
     return 0;
 }
 
